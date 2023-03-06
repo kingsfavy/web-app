@@ -8,20 +8,21 @@
     <title>login</title>
 </head>
 <body> 
+
 <h2 class="head">SIGN UP</h2>
-<form action="htttps://codeliber.com/form-action.php" method="post" onsubmit="validateForm()">
+<form action="" method="post" onsubmit="validateForm()" target="_blank">
 <input type ="text" placeholder="First Name" class="input"/>
 <br><br>
-<input type ="text" placeholder="Last Name" class="input"/>
+<input id="data" placeholder="Last Name" class="input"/>
 <br><br>
-<input type ="tel" placeholder="mobile number" class="input"/>
+<input type ="tel" placeholder="mobile number" class="input" id="data"/>
 <br><br>
 <p>Date Of Birth</p>
-<input type="date" placeholder="DOB" class="input"  "date"/>
+<input type="date" placeholder="DOB" class="input"  "date" id="data"/>
 <br><br>
-<input type ="text" placeholder="country" class="input" />
+<input id="data" placeholder="country" class="input" />
 <br><br>
-<input type ="email" placeholder="email" id="email" class="input"/>
+<input type ="email" placeholder="email" id="email" class="input" id="data"/>
 <br><br>
 <p id="demo"><b>note:</b> the passcode will be use as your detail to login at anytime.</p>
 
@@ -30,18 +31,19 @@
 
 
 <p>gender</p>
-<input type="radio" id="male" value="male" name="gender"  class="inputs"/>
+<input type="radio" id="male" value="male" name="gender"  class="inputs" id="data"/>
 <label class="p">male</label>
-<input type="radio" id="female" value="female" name="gender" class="inputs"/>
+<input type="radio" id="female" value="female" name="gender" class="inputs" id="data"/>
 <label class="p">female</label>
 
 
 <br><br>
-<input type ="number" placeholder="input the passcode" class="input"/>
+<input type ="number" placeholder="input the passcode" class="input" id="data"/>
 <br><br>
 <a href="login.html"><button type="button" onclick="myFunc();" name="y" class="btn" "signup"><b>sign up</b></button></a>
 </form>
 
 <script src="script.js"></script>
+     <py-script src="/my.py"></py-script>
 </body>
 </html>

@@ -24,6 +24,7 @@
   -webkit-animation: slide 2s reverse ease-in 0s 1 both;
 }
 .p{
+  font-size:12px;
   -webkit-animation: slide 2.5s reverse ease-in 0s 1 both;
   color:white;
 }

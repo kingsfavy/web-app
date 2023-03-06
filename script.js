@@ -7,7 +7,7 @@ function validateForm(){
 }
 
 function myc(){
-  alert("login successfully");
+  alert("login successful");
 }
 
 function mnc(){
@@ -41,12 +41,12 @@ function myc(){
      }
      
      function myFunc(){
-       var y = location.pathname;
+       var y = location.hostname;
        alert("signed up successful, login in your passcode" + " " + y);
      }
      
      function myFunct(){
-       var u = location.hostname;
+       var u = location.pathname;
        alert("your passcode is " + " " + u);
      }
      
@@ -180,7 +180,8 @@ function myc(){
       
       function chat(){
       var get = prompt("");
-      document.getElementById("elem").innerHTML=get;
+      var html = "";
+      document.getElementById("elem").innerHTML=html + get;
       }
       
       
@@ -188,3 +189,12 @@ function myc(){
         var number = prompt("");
       document.getElementById("firstelem").innerHTML=number;
       }
+      
+      function chats(){
+      var area = document.getElementById("area");
+      
+      area.addEventListener("keypress", function() {
+         document.getElementById("demo").innerHTML = area.value;
+      });
+      }
+      
