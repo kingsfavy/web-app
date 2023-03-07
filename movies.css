@@ -124,8 +124,21 @@
    width:60px;
    height:60px;
  }
- 
- 
+ video:hover{
+   -webkit-filter: vivid(500%); 
+    -moz-filter: saturate(150%);
+  filter:saturate(150%);
+   min-width:100%;
+   position:absolute;
+   min-height:100%;
+   z-index: 1;
+ }
+ video{
+  z-index:-1;
+  overflow:hidden;
+  width:100%;
+  height:auto;
+}
      @-webkit-keyframes bottom{
   from{
   -ms-webkit-transform:translate(0px, 1000px);
@@ -142,4 +155,9 @@
 }
 }
 
-@media only screen and(orientation:landscape){p{font-size:18px;}}
+@media only screen and(orientation:landscape){
+video:hover{
+     -webkit-filter: vivid(500%); 
+    -moz-filter: saturate(150%);
+  filter:saturate(150%);
+)}

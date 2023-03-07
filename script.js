@@ -198,3 +198,6 @@ function myc(){
       });
       }
       
+      
+      
+      document.ontouchstart = function(){ document.getElementById('wp').play(); }
